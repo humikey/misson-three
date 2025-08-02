@@ -25,10 +25,10 @@ npm install @chainlink/contracts --save-dev
 npx hardhat compile       
 // install dotenv
 npm install dotenv --save-dev  
+// 
+npm install --save-dev @nomicfoundation/hardhat-ethers ethers hardhat-deploy hardhat-deploy-ethers
 // deploy
 npx hardhat run scripts/deployFundMe.js --network sepolia
-
-
 
 
 git init   
